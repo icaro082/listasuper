@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*--con esta nota se anulan los pre settings--*/
+
+header {
+	background-image:url(../img/super.jpg);
+}
+nav {
+	display: inline-flex;
+}
+.navbut{
+	display: inline;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 25%;
+	font-weight: bold;
+	text-align: center;
+	color:#004080;
+	padding: 3px;
+}
+body {
+	font-family: Verdana, sans-serif;
+	width: 90%;
+	margin: 3%;
+	background-color: #cce6ff;
+}
+h1{
+	font-weight: bolder;
+	color: white;
+	position: relative;
+	width: 100%;
+}
+h3{
+	text-align: center;
+}
+main {
+	display:flex;
+}
+aside {
+	display: inline;
+	width: 40%;
+	margin: 15px;
+	color: #004d99;
+	}
+
+.item {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 25%;
+}
+.head {
+	display:block;
+	width: 100%;
+}
+#lacteos {
+	color: #00ace6;
+	background-color: white;
+}
+#lacteos h3 {
+	color:white;
+	background-color:#4dd2ff;
+	padding: 10px;
+}
+#carnes {
+	color: #ff8080;
+	background-color: white;
+	
+}
+#carnes h3 {
+	color:white;
+	background-color:#ff4d4d;
+	padding: 10px;
+}
+#frutas {
+	color: #00b300;
+	background-color: white
+}
+#frutas h3 {
+	color:white;
+	background-color:#00b300;
+	padding: 10px;
+}
+.boton01 {
+	color: white;
+	width: 100%;
+	background-color: #004080;
+	padding:15px;
+}
